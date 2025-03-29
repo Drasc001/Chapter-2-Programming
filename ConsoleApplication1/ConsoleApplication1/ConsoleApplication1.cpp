@@ -1,20 +1,24 @@
-// ConsoleApplication1.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+using namespace std;
+int main() {
 
-int main()
-{
-    std::cout << "Hello World!\n";
+	double riserate = 1.5;
+	// Setting rise rate to 1.5 as a constant for calculations
+
+	double risein5years = riserate * 5;
+	// Calculates the rise of the ocean in 5 years using multiplication
+
+	double risein7years = riserate * 7;
+	//Calculates the rise of the ocean in 7 years using multiplication
+
+	double risein10years = riserate * 10;
+	//Calculates the rise of the ocean in 10 years using multiplication
+
+	cout << "In 5 years the ocean rise will be " << risein5years << " milimeters.\n";
+
+	cout << "In 7 years the ocean rise will be " << risein7years << " milimeters.\n";
+
+	cout << "In 10 years the ocean rise will be " << risein10years << " milimeters.\n";
+
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
